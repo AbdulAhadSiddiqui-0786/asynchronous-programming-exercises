@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ff00ff; 
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #0d73ee;
+    color: white; 
+    border: none;
+    border-radius: 5px;
+}
+
+#promiseResult,#callbackResult ,#asyncResult{
+    margin-top: 20px;
+    background-color: black; 
+    color: white; 
+    padding: 10px; 
+    border-radius: 10px;
+    font-size: 14px; 
+    width: 50vh; 
+    height: 50vh; 
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none; 
+    overflow-y: auto; 
+    word-wrap: break-word; 
+    text-align: justify; 
+}
